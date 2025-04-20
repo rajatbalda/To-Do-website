@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="A simple and SEO-friendly To-Do List web app to manage your daily tasks effectively."/>
+  <meta name="keywords" content="To-Do List, Task Manager, Productivity App, JavaScript To-Do App, Local Storage Tasks"/>
+  <meta name="author" content="Rajat Balda"/>
+  <title>To-Do List App - Manage Your Tasks Efficiently</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>📝To-Do List App</h1>
+    <p>Organize your tasks, boost your productivity, and never miss a deadline with this lightweight web-based task manager.</p>
+  </header>
+
+  <main>
+    <section>
+      <input type="text" id="task-input" placeholder="Add a new task" aria-label="Task input field" />
+      <button onclick="addTask()" aria-label="Add task button">Add Task</button>
+    </section>
+
+    <section>
+      <ul id="task-list" aria-label="List of tasks"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 To-Do List App by Rajat Balda</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
