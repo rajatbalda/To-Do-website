@@ -19,4 +19,4 @@ This task manager is:
 
 ## 🌐 Live Demo
 
-➡️ [View Online](https://rajatbalda.github.io/to-do-website/)
+➡️ [View Online](https://rajatbalda.github.io/To-Do-website/)
